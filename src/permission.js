@@ -8,7 +8,7 @@ NProgress.configure({ showSpinner: false }) // NProgress Configuration
 
 const whiteList = ['/login'] // no redirect whitelist
 
-const loginPage = 'http://10.244.237.123:100/mac2'
+const loginPage = 'url'
 
 router.beforeEach(async (to, from, next) => {
   // start progress bar
